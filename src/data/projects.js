@@ -4,10 +4,10 @@ export const projectsData = [
     index: "01",
     title: "Website Absensi Karyawan",
     subtitle: "Sistem manajemen absensi online berbasis Next.js App Router dengan dashboard HR & karyawan",
-    description: "Aplikasi web absensi karyawan full-stack berbasis Next.js dan TypeScript. Dilengkapi dashboard terpisah untuk Admin HRD dan Karyawan, sistem pencatatan clock-in/out real-time, manajemen data karyawan, dan laporan kehadiran.",
+    description: "Aplikasi web absensi karyawan full-stack berbasis Next.js dan TypeScript yang telah di-deploy ke Vercel. Dilengkapi dashboard terpisah untuk Admin HRD dan Karyawan, sistem pencatatan clock-in/out real-time, manajemen data karyawan, dan laporan kehadiran.",
     category: "WEB",
     categories: ["WEB", "PERSONAL"],
-    technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Node.js", "Prisma", "PostgreSQL"],
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
     screenshots: [
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
@@ -15,13 +15,14 @@ export const projectsData = [
       "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80"
     ],
     github: "https://github.com/Ikhwn01/website-absensi-karyawan",
-    demo: "https://absensi-karyawan.example.com",
+    demo: "https://website-absensi-karyawan-mauve.vercel.app/",
     featured: true,
     caseStudy: {
-      overview: "Sistem Absensi Karyawan memodernisasi pencatatan kehadiran perusahaan dari metode manual menjadi portal digital yang cepat, terstruktur, dan aman.",
-      problem: "Pencatatan absensi manual berisiko terjadi kecurangan titip absen, lambat saat kalkulasi laporan bulanan HRD, dan tidak adanya visibilitas real-time.",
+      overview: "Sistem Absensi Karyawan memodernisasi pencatatan kehadiran perusahaan dari metode manual menjadi portal digital yang cepat, terstruktur, dan telah ter-deploy secara live di Vercel.",
+      problem: "Pencatatan absensi manual berisiko terjadi kecurangan titip absen, lambat saat kalkulasi laporan bulanan HRD, dan tidak adanya visibilitas real-time bagi manajer departemen.",
       solution: "Membangun platform Next.js App Router dengan server actions, autentikasi terproteksi, dashboard khusus HR & Karyawan, serta export laporan absensi bulanan.",
       keyFeatures: [
+        "Live Deployment di Vercel dengan arsitektur serverless",
         "Dashboard terpisah untuk Admin HRD dan Portal Karyawan",
         "Pencatatan Clock-In & Clock-Out absensi real-time",
         "Manajemen data karyawan dan departemen perusahaan (CRUD)",
@@ -30,8 +31,8 @@ export const projectsData = [
         "Autentikasi aman dengan verifikasi role user"
       ],
       process: "Merancang arsitektur Next.js App Router, mengimplementasikan action handlers untuk data karyawan, membangun layout dashboard dengan Tailwind CSS, dan mengoptimalkan query database.",
-      challenges: "Memastikan hak akses halaman terisolasi dengan aman antara portal karyawan biasa dan dashboard admin HRD.",
-      results: "Mengeliminasi pencatatan fisik 100%, memangkas waktu audit absensi HRD hingga 85%, dan menyediakan pelaporan kehadiran yang akurat."
+      challenges: "Memastikan hak akses halaman terisolasi dengan aman antara portal karyawan biasa dan dashboard admin HRD pada lingkungan produksi Vercel.",
+      results: "Mengeliminasi pencatatan fisik 100%, memangkas waktu audit absensi HRD hingga 85%, dan menyediakan pelaporan kehadiran real-time."
     }
   },
   {
@@ -50,7 +51,7 @@ export const projectsData = [
       "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=1200&q=80"
     ],
     github: "https://github.com/Ikhwn01/project-booking-bengkel",
-    demo: "https://booking-bengkel.example.com",
+    demo: "https://github.com/Ikhwn01/project-booking-bengkel",
     featured: true,
     caseStudy: {
       overview: "Project Booking Bengkel adalah solusi digital untuk memfasilitasi penjadwalan perawatan dan perbaikan kendaraan secara efisien tanpa antrean panjang.",
@@ -84,7 +85,7 @@ export const projectsData = [
       "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80"
     ],
     github: "https://github.com/Ikhwn01/smartpos-demo",
-    demo: "https://smartpos-demo.example.com",
+    demo: "https://github.com/Ikhwn01/smartpos-demo",
     featured: true,
     caseStudy: {
       overview: "SmartPOS menyediakan sistem Kasir digital terintegrasi untuk bisnis retail dan UMKM guna mempercepat proses transaksi dagang.",
@@ -118,7 +119,7 @@ export const projectsData = [
       "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80"
     ],
     github: "https://github.com/Ikhwn01/Toko-Ikhwan-Grogol",
-    demo: "https://toko-grogol.example.com",
+    demo: "https://github.com/Ikhwn01/Toko-Ikhwan-Grogol",
     featured: true,
     caseStudy: {
       overview: "Platform E-Commerce Toko Ikhwan Grogol dibangun untuk memperluas jangkauan pemasaran produk toko secara online.",
@@ -151,7 +152,7 @@ export const projectsData = [
       "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1200&q=80"
     ],
     github: "https://github.com/Ikhwn01/katalog-foto",
-    demo: "https://katalog-foto.example.com",
+    demo: "https://github.com/Ikhwn01/katalog-foto",
     featured: true,
     caseStudy: {
       overview: "Katalog Foto Web App dirancang khusus untuk manajemen aset visual, galeri produk, dan pengorganisasian karya dokumentasi foto.",
@@ -183,7 +184,7 @@ export const projectsData = [
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
     ],
     github: "https://github.com/Ikhwn01/braftdev",
-    demo: "https://braftdev.example.com",
+    demo: "https://github.com/Ikhwn01/braftdev",
     featured: true,
     caseStudy: {
       overview: "BraftDev Studio Website dibuat sebagai profil digital studio pengembang perangkat lunak untuk menampilkan keahlian dan portofolio proyek.",
@@ -216,7 +217,7 @@ export const projectsData = [
       "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1200&q=80"
     ],
     github: "https://github.com/Ikhwn01/portofolio",
-    demo: "https://ikhwanmuarif.dev",
+    demo: "https://dry-islands-allow.loca.lt",
     featured: true,
     caseStudy: {
       overview: "Portofolio developer unggulan yang dirancang untuk menampilkan standar estetika visual 2026, konsep Light Futuristic, glassmorphism, dan interaktivitas tinggi.",
