@@ -36,42 +36,8 @@ export const projectsData = [
     }
   },
   {
-    id: "project-booking-bengkel",
-    index: "02",
-    title: "Project Booking Bengkel",
-    subtitle: "Sistem reservasi dan booking servis kendaraan otomatis berbasis web",
-    description: "Platform web pemesanan dan penjadwalan servis kendaraan berbasis TypeScript. Memudahkan pelanggan melakukan reservasi teknisi, memilih jam layanan, dan memantau status pengerjaan servis secara online.",
-    category: "WEB",
-    categories: ["WEB", "PERSONAL"],
-    technologies: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Node.js"],
-    image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=1200&q=80",
-    screenshots: [
-      "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?auto=format&fit=crop&w=1200&q=80"
-    ],
-    github: "https://github.com/Ikhwn01/project-booking-bengkel",
-    demo: "https://github.com/Ikhwn01/project-booking-bengkel",
-    featured: true,
-    caseStudy: {
-      overview: "Project Booking Bengkel adalah solusi digital untuk memfasilitasi penjadwalan perawatan dan perbaikan kendaraan secara efisien tanpa antrean panjang.",
-      problem: "Antrean bengkel manual sering menyebabkan penumpukan kendaraan, alokasi mekanik yang tidak teratur, dan ketidakpastian waktu tunggu bagi pelanggan.",
-      solution: "Mengembangkan aplikasi booking online di mana pelanggan dapat memilih jenis layanan, memilih slot waktu bebas, dan menerima konfirmasi jadwal servis otomatis.",
-      keyFeatures: [
-        "Formulir reservasi layanan servis kendaraan interaktif",
-        "Pemilihan slot waktu & penugasan mekanik otomatis",
-        "Dashboard pemantauan status pengerjaan servis",
-        "Riwayat pemeliharaan dan rekomendasi penggantian suku cadang",
-        "Notifikasi pengingat servis berkala"
-      ],
-      process: "Mendesain skema alur reservasi, membangun antarmuka UI dengan Tailwind CSS, serta mengintegrasikan validasi form jadwal tanpa bentrok jam kerja.",
-      challenges: "Mencegah bentrok jadwal booking (double-booking) pada slot waktu dan mekanik yang sama.",
-      results: "Meningkatkan efisiensi alokasi mekanik bengkel dan mengurangi waktu tunggu antrean pelanggan hingga 60%."
-    }
-  },
-  {
     id: "smartpos-demo",
-    index: "03",
+    index: "02",
     title: "SmartPOS System",
     subtitle: "Aplikasi Point of Sale (POS) dan kasir digital cerdas berbasis Laravel",
     description: "Sistem Kasir (POS) dan manajemen penjualan modern berbasis Laravel. Menyediakan antarmuka checkout kasir cepat, manajemen stok otomatis, pencetakan struk digital, dan analisis laporan transaksi bulanan.",
@@ -105,7 +71,7 @@ export const projectsData = [
   },
   {
     id: "toko-ikhwan-grogol",
-    index: "04",
+    index: "03",
     title: "Toko Ikhwan Grogol",
     subtitle: "Platform toko online e-commerce untuk manajemen produk dan transaksi retail",
     description: "Aplikasi web toko online berbasis PHP & Laravel. Dilengkapi fitur katalog produk digital, keranjang belanja, kalkulasi pesanan, dan sistem manajemen persediaan produk toko.",
@@ -138,7 +104,7 @@ export const projectsData = [
   },
   {
     id: "katalog-foto",
-    index: "05",
+    index: "04",
     title: "Katalog Foto Web App",
     subtitle: "Sistem manajemen galeri foto digital dan portofolio produk visual",
     description: "Aplikasi web manajemen katalog foto dan aset visual berbasis Laravel Blade. Memungkinkan pengguna mengunggah, mengategorikan, dan menampilkan katalog foto resolusi tinggi secara responsif.",
@@ -171,7 +137,7 @@ export const projectsData = [
   },
   {
     id: "braftdev",
-    index: "06",
+    index: "05",
     title: "BraftDev Studio Website",
     subtitle: "Website profil studio pengembang web interaktif & layanan digital",
     description: "Platform landing page modern untuk studio pengembangan software dan digital agency. Menampilkan portofolio layanan web, animasi UI interaktif, dan layout responsif.",
@@ -203,7 +169,7 @@ export const projectsData = [
   },
   {
     id: "portfolio-website",
-    index: "07",
+    index: "06",
     title: "Light Futuristic Developer Portfolio",
     subtitle: "2026 state-of-the-art interactive personal web application showcase",
     description: "Website portofolio pribadi modern berbasis React, Tailwind CSS, dan Framer Motion dengan estetika Light Futuristic, custom dual cursor, dan case study modal interaktif.",
